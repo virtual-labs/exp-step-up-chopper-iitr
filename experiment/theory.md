@@ -62,7 +62,7 @@ Energy stored in the inductor L is given by
 
 <center>
 
-= (Voltage across L)(Avg. current through L) * T_<sub>ON</sub> 
+= (Voltage across L)(Avg. current through L) * T<sub>ON</sub> 
 
 </center>
 
@@ -76,7 +76,7 @@ When chopper is switched OFF, the energy released by inductor to the load is giv
 
 <center>
 
-= (Voltage across L)(Avg. current through L) * T_<sub>OFF</sub> 
+= (Voltage across L)(Avg. current through L) * T<sub>OFF</sub> 
 
 </center>
 
