@@ -39,8 +39,7 @@ As a result, the voltage across the load becomes equal to the sum of source volt
 
 <center>
 
-$$V_o = V_s + L \frac {di}{dt}....(1)$$
-
+$$V_o = V_s + L\frac {di}{dt}....(1)$$
 
 </center>
 
@@ -51,25 +50,25 @@ Thus, the circuit works as a step-up chopper. It may be noted here that, the vol
 <center> <img src="images\Fig 4.png "style="mix-blend-mode: darken; -webkit-filter: grayscale(100%); filter: grayscale(100%);"></center>
 <center><b style="font-size: 19px;">Fig. 4 Output waveform of source voltage, source current, load voltage and load current </b></center><br>
 
-The first waveform represents the source voltage which is a DC voltage equal to $V_s$. Therefore, it is shown as a straight line parallel to time axis. Second waveform shows the source current $i_s$ , When chopper (CH) is switched ON, the source current increases from its minimum value $I_1$ to maximum value $I_2$. It may also be noted that, this source current flows through the inductor during ON time. Therefore, it may be said that the current through the inductor L rises from $I_1$ to $I_2$ during ON period. During this time, no current flows through the load as shown in $i_o$ versus time (t) graph.<br>
+The first waveform represents the source voltage which is a DC voltage equal to V<sub>s</sub>. Therefore, it is shown as a straight line parallel to time axis. Second waveform shows the source current i<sub>s</sub> , When chopper (CH) is switched ON, the source current increases from its minimum value I<sub>1</sub> to maximum value I<sub>2</sub>. It may also be noted that, this source current flows through the inductor during ON time. Therefore, it may be said that the current through the inductor L rises from I<sub>1</sub> to I<sub>2</sub> during ON period. During this time, no current flows through the load as shown in i<sub>o</sub> versus time (t) graph.<br>
 
-When chopper is switched OFF, the source current starts decreasing from its peak value $I_2$ to least value $I_1$. Thus, the current through the inductor decreases from $I_2$ to $I_1$ during the OFF period. Since, load only comes into circuit during the OFF period, it may be said that, load current decreases from $I_2$ to $I_1$ during OFF time.
+When chopper is switched OFF, the source current starts decreasing from its peak value I<sub>2</sub> to least value I<sub>1</sub>. Thus, the current through the inductor decreases from I<sub>2</sub> to I<sub>1</sub> during the OFF period. Since, load only comes into circuit during the OFF period, it may be said that, load current decreases from I<sub>2</sub> to I<sub>1</sub> during OFF time.
 
 ### **Calculation of Output Voltage:**
 From the above analysis of source current and load current waveform, it is clear that, the average value of current flowing through load and inductor
-are same and equal to ($I_1$+$I_2$)/2. The energy is stored in L during chopper ON time. This stored energy in L during the ON period is equal to the multiplication of voltage across the inductor, average current through it and T<sub>ON</sub> time. The voltage drop across L during ON time equal to the source voltage $V_s$.<br>
+are same and equal to (I<sub>1</sub> + I<sub>2</sub>)/2. The energy is stored in L during chopper ON time. This stored energy in L during the ON period is equal to the multiplication of voltage across the inductor, average current through it and T<sub>ON</sub> time. The voltage drop across L during ON time equal to the source voltage V<sub>s</sub>.<br>
 
 Energy stored in the inductor L is given by 
 
 <center>
 
-$$ = (Voltage ~ across ~ L)(Avg. ~ current ~ through ~ L) *T_{ON}$$ 
+= (Voltage across L)(Avg. current through L) * T_<sub>ON</sub> 
 
 </center>
 
 <center>
 
-$$ = \frac {V_s(I_1+I_2)}{2} * T_{ON}....(2)$$
+$$= \frac {V_s(I_1+I_2)}{2} * T_{ON}....(2)$$
 
 </center>
 
@@ -77,13 +76,13 @@ When chopper is switched OFF, the energy released by inductor to the load is giv
 
 <center>
 
-$$ = (Voltage ~ across ~ L)(Avg. ~ current ~ through ~ L) * T_{OFF}$$
+= (Voltage across L)(Avg. current through L) * T_<sub>OFF</sub> 
 
 </center>
 
 <center>
 
-$$ = (V_o-V_s)  \frac {(I_1+I_2)}{2}*T_{OFF}....(3)$$ 
+$$= (V_o-V_s)  \frac {(I_1+I_2)}{2}*T_{OFF}....(3)$$ 
  
 </center>
 
@@ -91,32 +90,31 @@ Considering the system to be lossless, these two energies given by equation (2) 
 
 <center>
 
-$$V_s \frac {(I_1+I_2)}{2}*T_{ON} = (V_o-V_s)\frac {(I_1+I_2)}{2}*T_{OFF}....(4)$$ 
+$$V_s \frac {(I_1+I_2)}{2}*T_{ON} = (V_o-V_s) \frac {(I_1+I_2)}{2}*T_{OFF}....(4)$$ 
  
 </center>
 
 <center>
 
-$$V_s * T_{ON} = V_o * T_{OFF} - V_s * T_{OFF}$$  
+$$V_{s} * T_{ON} = V_{o} * T_{OFF} - V_{s} * T_{OFF}$$  
 
 </center>
 
 <center>
 
-$$V_o * T_{OFF} = V_{s}(T_{ON} - T_{OFF}) = V_{s} * T$$
+$$V_{o} * T_{OFF} = V_{s}(T_{ON} - T_{OFF}) = V_{s} * T$$
 
 </center>
 
 <center>
 
-$$V_o = V_s \frac {T}{T_{OFF}} = V_s*\frac {T}{T-T_{ON}}$$
+$$V_o = V_s\frac {T}{T_{OFF}} = V_s*\frac {T}{T-T_{ON}}$$
 
 </center>
 
 <center>
 
-$$V_o = V_s * \frac {1}{1- \alpha}....(5)$$
- 
+$$V_{o} = V_{s}*\frac {1}{1-\alpha}....(5)$$
  
 </center>
       
