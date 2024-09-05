@@ -10,7 +10,7 @@
 			"correctAnswer": "c"
 		},
 		{
-			"question": "A step-up chopper has input voltage of 220 V and output voltage of 660 V. If the conduction time of chopper is 100 μs, compute Toff width of the output voltage pulse?",
+			"question": "A step-up chopper has input voltage of 220 V and output voltage of 660 V. If the conduction time of chopper is 100 μs, Compute Toff width of the output voltage pulse?",
 			"answers": {
 				"a": "100 μs",
 				"b": "150 μs",
